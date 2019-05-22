@@ -1,3 +1,5 @@
+package com.adhol.study.oop.motordepot;
+
 public class Route {
     private int lengthKm;
     private boolean isDone;

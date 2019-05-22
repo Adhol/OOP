@@ -1,9 +1,11 @@
+package com.adhol.study.oop.homelibrary;
+
 import java.io.*;
 import java.util.*;
 
 import static java.lang.System.exit;
 
-public class HomeLibrary{
+public class HomeLibrary {
 
     private static Scanner in = new Scanner(System.in);
 
@@ -89,9 +91,9 @@ public class HomeLibrary{
                         System.out.println(menu);
                 }
 
-            } catch(java.util.InputMismatchException e){
-                    System.out.println("Not correct item, try again");
-                    return;
+            } catch (java.util.InputMismatchException e) {
+                System.out.println("Not correct item, try again");
+                return;
             }
         }
     }
