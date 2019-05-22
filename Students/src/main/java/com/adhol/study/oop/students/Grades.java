@@ -1,3 +1,5 @@
+package com.adhol.study.oop.students;
+
 import java.util.Scanner;
 
 public class Grades {

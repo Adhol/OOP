@@ -1,3 +1,5 @@
+package com.adhol.study.oop.motordepot;
+
 public class Dispatcher {
 
     private String name;

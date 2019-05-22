@@ -1,3 +1,8 @@
+package com.adhol.study.oop.motordepot;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Задача на взаимодействие между классами. Разработать систему «Автобаза».
  * Диспетчер распределяет заявки на Рейсы между Водителями и назначает для этого Автомобиль.
@@ -5,10 +10,6 @@
  * Диспетчер может отстранить Водителя от работы.
  * Водитель делает отметку о выполнении Рейса и состоянии Автомобиля.
  */
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class MotorDepot {
     public static void main(String[] args) {
         List<Driver> listOfDrivers = new ArrayList<>();
